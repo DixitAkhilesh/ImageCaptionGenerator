@@ -2,7 +2,7 @@ import streamlit as st
 from caption_generator import get_image_input
 from gtts import gTTS
 
-st.markdown("<h1 style='color: white; text-align: center;'>Image Caption Generator</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: white; text-align: center;'>Image Caption Generator</h1>")
 
 # Upload an image
 user_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png", "gif"])
